@@ -11,3 +11,71 @@
  *= require_self
  *= require_tree .
  */
+
+#wrapper {
+  width: 640px;
+  height: 960px;
+  background: linear-gradient(top, #cccccc, #333333);
+  background: -moz-linear-gradient(top, #cccccc, #333333);
+}
+
+#header {
+  width: 640px;
+  height: 150px;
+}
+#header h1 {
+  line-height: 150px;
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+}
+
+#content {
+  width: 640px;
+  height: 710px;
+}
+#content #loginFormContainer {
+  float: left;
+  width: 600px;
+  margin-top: 150px;
+  margin-left: 20px;
+}
+#content #loginFormContainer h2 {
+  font-size: 24px;
+  text-align: center;
+}
+#content #loginFormContainer #loginForm input {
+  margin: 20px 0 0 25px;
+  width: 550px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  text-indent: 50px;
+}
+#content #loginFormContainer #loginForm a {
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 25px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  background: #ccc;
+  border-radius: 10px;
+}
+
+#footer {
+  width: 640px;
+  height: 100px;
+}
+#footer h3 {
+  line-height: 100px;
+  font-size: 20px;
+  text-align: center;
+  color: #CCC;
+}
+

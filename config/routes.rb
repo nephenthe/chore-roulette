@@ -1,4 +1,35 @@
 Gamify::Application.routes.draw do
+  resources :galleries
+
+
+  resources :activities
+
+
+  get "newchore/index"
+
+  get "newchore/edit"
+
+  get "newchore/new"
+
+  get "newchore/show"
+
+  get "chore/index"
+
+  get "chore/edit"
+
+  get "chore/new"
+
+  get "chore/show"
+
+  resources :chores
+
+
+  get "roulette/index"
+
+  get "login/index"
+
+  get "home/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +79,7 @@ Gamify::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'login#index'
 
   # See how all your routes lay out with "rake routes"
 

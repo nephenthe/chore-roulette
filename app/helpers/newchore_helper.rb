@@ -1,0 +1,2 @@
+module NewchoreHelper
+end
